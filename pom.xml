@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.miaoubich</groupId>
+  <artifactId>TrackUserWebSite</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>TrackUserWebSite</name>
+  <description>A demo project to track the loyalty of User in browsing a website</description>
+
+  <properties>
+	  <maven.compiler.target>17</maven.compiler.target>
+	  <maven.compiler.source>17</maven.compiler.source>
+  </properties>
+  
+  <build>
+  	<plugins>
+    	<plugin>
+        	<artifactId>maven-compiler-plugin</artifactId>
+        	<configuration>
+            	<source>${maven.compiler.source}</source>
+            	<target>${maven.compiler.target}</target>
+        	</configuration>
+    	</plugin>
+	</plugins>
+  </build>
+
+</project>
